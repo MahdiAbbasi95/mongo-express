@@ -11,8 +11,8 @@ COPY . .
 
 # grab tini for signal processing and zombie killing
 RUN apk -U add --no-cache bash \
-	tini && \
-	yarn install
+    tini && \
+    yarn install
 	
 # RUN yarn run build	# prepublish already run build
 
